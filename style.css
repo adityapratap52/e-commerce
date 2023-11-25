@@ -1,0 +1,85 @@
+.header {
+    margin-top: 25px;
+    min-height: 60px;
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.logo h1 span:first-of-type {
+    /* select only first span of .logo h1*/
+    padding: 0px 15px;
+    border: 3px solid #ddd;
+    margin-right: 5px;
+    color: #D19C97;
+}
+
+.search-product input {
+    width: 70%;
+    height: 40px;
+    border-radius: 0px;
+    padding: 10px;
+    font-size: 18px;
+    color: #666;
+    border: 1px solid #ddd;
+    border-right: none;
+}
+
+.search-product input:focus {
+    outline: none;
+}
+
+.search-product button {
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    color: #D19C97;
+    background-color: #fff;
+    margin-left: -5px;
+}
+
+.selected-product {
+    text-align: right;
+}
+
+.full-banner-wrapper {
+    border: 1px solid #ddd;
+}
+
+.list-header {
+    height: 60px;
+    background-color: #D19C97;
+}
+
+.list-header h4{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 600;
+}
+
+.list-header span{
+    float: right;
+    padding: 28px;
+}
+
+.category-list ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    border: 1px solid #ddd;
+}
+
+.category-list ul li{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 40px;
+}
+
+.category-list ul li a{
+    color: #333;
+    text-decoration: none;
+}
