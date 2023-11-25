@@ -21,6 +21,10 @@ body {
     width: 50%;
 }
 
+.w-75 {
+    width: 75%;
+}
+
 .next-row {
     clear: both;
 }
@@ -45,3 +49,7 @@ body {
     padding-left: 5px;
     padding-right: 5px;
 }
+a {
+    text-decoration: none;
+    color: #333;
+ }
