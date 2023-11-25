@@ -135,6 +135,7 @@
     height: 400px;
     float: left;
     width: 100%;
+    margin-left: 15px;
 }
 
 .banner img {
@@ -154,6 +155,7 @@
     justify-content: center;
     flex-direction: column;
     color: #fff;
+    background-color: #0000003d;
 }
 
 .banner-text h4 {
@@ -173,4 +175,27 @@
     color: #fff;
     padding: 10px 15px;
     border-radius: 5%;
+}
+
+.features-points {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    margin-right: 25px;
+}
+
+.features-points .icon-text-wrap{
+    padding: 30px;
+    display: flex;
+}
+
+.features-points .icon-text-wrap i{
+    font-size: 30px;
+    color: #d19c97;
+}
+
+.features-points .icon-text-wrap span{
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 600;
 }
