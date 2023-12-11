@@ -66,3 +66,29 @@ a {
 .mr-5 {
     margin-right: 5%;
 }
+
+@media screen and (max-width: 480px) {
+    .arrange-left {
+        float: none !important;
+    }
+    .w-25{
+        width: 100% !important;
+    
+    }
+    .w-33{
+        width: 100% !important;
+    }
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+    .footer-desc {
+        padding-right: 26px;
+    }
+    .copy-right {
+        flex-direction: column;
+    }
+}
